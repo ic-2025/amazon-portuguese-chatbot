@@ -1,0 +1,4 @@
+PyPDF2
+nltk
+tensorflow
+numpy
