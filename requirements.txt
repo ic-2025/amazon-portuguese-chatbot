@@ -1,5 +1,8 @@
 PyPDF2
-# nltk
-
+nltk
 tensorflow
 numpy
+pandas
+scikit-learn
+fuzzywuzzy
+matplotlib
