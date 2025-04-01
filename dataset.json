@@ -1,0 +1,150 @@
+{
+    "dataset": [
+      {
+        "municipio": "Abaetetuba",
+        "perguntas": [
+          {
+            "id": 1,
+            "pergunta": "Por que Abaetetuba é chamada de 'Capital Mundial do Brinquedo de Miriti'?",
+            "resposta": "Por sua tradição em produzir artesanato com a palmeira miriti, incluindo brinquedos coloridos.",
+            "tags": ["cultura", "artesanato"]
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual é o significado do nome 'Abaetetuba' em tupi?",
+            "resposta": "Significa 'ajuntamento de homens verdadeiros' (abá = homem, eté = verdadeiro, tyba = ajuntamento).",
+            "tags": ["etimologia", "história"]
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual evento religioso ocorre em novembro em Abaetetuba?",
+            "resposta": "O Círio de Nossa Senhora da Conceição, realizado desde 1812, com leilões e comidas típicas.",
+            "tags": ["religião", "festividades"]
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual patrimônio histórico foi tombado em 2010 em Abaetetuba?",
+            "resposta": "O Engenho Pacheco, localizado no rio Furo Grande.",
+            "tags": ["história", "patrimônio"]
+          },
+          {
+            "id": 5,
+            "pergunta": "Por que Abaetetuba era conhecida como 'Terra da Cachaça'?",
+            "resposta": "Devido à abundância de engenhos de cana-de-açúcar no passado.",
+            "tags": ["história", "economia"]
+          }
+        ]
+      },
+      {
+        "municipio": "Altamira",
+        "perguntas": [
+          {
+            "id": 6,
+            "pergunta": "Qual é a extensão territorial de Altamira?",
+            "resposta": "159.533,328 km², sendo o maior município do Brasil em área.",
+            "tags": ["geografia", "dados"]
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual usina hidrelétrica impactou Altamira na década de 2010?",
+            "resposta": "A Usina Hidrelétrica de Belo Monte, a terceira maior do mundo.",
+            "tags": ["infraestrutura", "meio ambiente"]
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual foi o massacre ocorrido no presídio de Altamira em 2019?",
+            "resposta": "Um conflito entre facções criminosas resultou em 62 mortes no Centro de Recuperação Regional de Altamira.",
+            "tags": ["segurança", "eventos"]
+          },
+          {
+            "id": 9,
+            "pergunta": "Qual dança é destaque no Festival Folclórico de Altamira?",
+            "resposta": "O Carimbó de Marcação, com coreografias pré-definidas.",
+            "tags": ["cultura", "festividades"]
+          },
+          {
+            "id": 10,
+            "pergunta": "Se Altamira fosse um país, qual seria seu ranking em tamanho?",
+            "resposta": "Seria o 92º maior do mundo, à frente da Grécia e do Nepal.",
+            "tags": ["geografia", "curiosidade"]
+          }
+        ]
+      },
+      {
+        "municipio": "Ananindeua",
+        "perguntas": [
+          {
+            "id": 11,
+            "pergunta": "Por que Ananindeua é considerada uma 'cidade dormitório'?",
+            "resposta": "Por abrigar moradores que trabalham em Belém mas residem lá devido ao custo de vida mais baixo.",
+            "tags": ["urbanismo", "economia"]
+          },
+          {
+            "id": 12,
+            "pergunta": "Qual é o pior índice de saneamento básico em Ananindeua?",
+            "resposta": "Apenas 0,77% do esgoto é tratado, um dos piores índices do Brasil.",
+            "tags": ["infraestrutura", "saúde"]
+          },
+          {
+            "id": 13,
+            "pergunta": "Qual árvore originou o nome 'Ananindeua'?",
+            "resposta": "A árvore Anani (Symphonia globulifera), cuja resina era usada para vedar embarcações.",
+            "tags": ["etimologia", "natureza"]
+          },
+          {
+            "id": 14,
+            "pergunta": "O que é o 'pô-pô-pô' nas ilhas de Ananindeua?",
+            "resposta": "São pequenas embarcações motorizadas usadas pelos ribeirinhos como transporte.",
+            "tags": ["transporte", "cultura"]
+          },
+          {
+            "id": 15,
+            "pergunta": "Qual museu em Ananindeua homenageia o ciclo da borracha?",
+            "resposta": "O Museu Parque Seringal, com seringueiras centenárias e áreas de lazer.",
+            "tags": ["cultura", "história"]
+          }
+        ]
+      },
+      {
+        "municipio": "Perguntas Incomuns/Comparativas",
+        "perguntas": [
+          {
+            "id": 16,
+            "pergunta": "Qual município paraense tem um festival que avalia 'Casal Carimboleiro'?",
+            "resposta": "Altamira, durante o Festival Folclórico.",
+            "tags": ["cultura", "curiosidade"]
+          },
+          {
+            "id": 17,
+            "pergunta": "Onde você encontraria um deck flutuante às margens de um rio no Pará?",
+            "resposta": "Na Orla de Ananindeua, inaugurada em 2023 às margens do rio Maguari.",
+            "tags": ["turismo", "infraestrutura"]
+          },
+          {
+            "id": 18,
+            "pergunta": "Qual cidade tem um dialeto influenciado por migrantes nordestinos e sulistas?",
+            "resposta": "Altamira, com o chamado 'dialeto do arco do desflorestamento'.",
+            "tags": ["cultura", "linguística"]
+          },
+          {
+            "id": 19,
+            "pergunta": "Qual município tem ilhas onde o transporte principal é a canoa?",
+            "resposta": "Ananindeua, como nas ilhas João Pilatos e Sororoca.",
+            "tags": ["geografia", "transporte"]
+          },
+          {
+            "id": 20,
+            "pergunta": "Onde ocorreu o maior massacre em um presídio brasileiro em 2019?",
+            "resposta": "No Centro de Recuperação Regional de Altamira.",
+            "tags": ["segurança", "eventos"]
+          }
+        ]
+      }
+    ],
+    "metadados": {
+      "autor": "Chatbot de Treinamento",
+      "data_criacao": "2024-06-20",
+      "fonte": "PDFs sobre Abaetetuba, Altamira e Ananindeua",
+      "observacao": "Dataset para treinar modelos de QA com foco em municípios do Pará."
+    }
+  }
