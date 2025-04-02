@@ -40,7 +40,7 @@ processed_text = preprocess_text(corpus_text)
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model('portuguese_chatbot_vl.h5')
+model = load_model('./models/portuguese_chatbot_vl2.h5')
 
 # Verify the model is loaded
 model.summary()
@@ -48,7 +48,7 @@ model.summary()
 import pickle
 
 # Carrega o arquivo pickle
-with open('tokenizer_vl.pickle', 'rb') as file:
+with open('./models/tokenizer_vl2.pickle', 'rb') as file:
     data = pickle.load(file)
 
 print("Conteúdo carregado:", type(data))
@@ -80,7 +80,7 @@ def preprocess_text(text):
 
 max_length=35
 
-def generate_response(input_text, temperature=0.8):
+def generate_response(input_text, temperature=0.75):
     """
     Generate a response to the input text using the trained model.
     
@@ -92,19 +92,21 @@ def generate_response(input_text, temperature=0.8):
         Generated response string
     """
     # Preprocess input
-    cleaned_input = preprocess_text(input_text)
+    # cleaned_input = preprocess_text(input_text)
+    cleaned_input = input_text
     input_seq = tokenizer.texts_to_sequences([cleaned_input])
     input_padded = pad_sequences(input_seq, maxlen=max_length, padding='post')
     
     # Initialize response
     response_seq = np.zeros((1, max_length))
-    response_seq[0, 0] = tokenizer.word_index['<OOV>']  # Start token
+    # response_seq[0, 0] = tokenizer.word_index['<OOV>']  # Start token
     
     for i in range(1, max_length):
         # Predict next word
         predictions = model.predict([input_padded, response_seq], verbose=0)[0][i-1]
         
         # Apply temperature for diversity
+        predictions = np.clip(predictions,1e-10, 1.0)
         predictions = np.log(predictions) / temperature
         exp_preds = np.exp(predictions)
         predictions = exp_preds / np.sum(exp_preds)
